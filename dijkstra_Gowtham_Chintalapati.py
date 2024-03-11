@@ -45,6 +45,7 @@ cv2.fillPoly(frame, [hexagon_points], frame_color)
 # First rectangle
 cv2.rectangle(frame, (100, 0), (175, 400), frame_color, -1)
 
+
 # Second rectangle
 cv2.rectangle(frame, (275, 100), (350, 500), frame_color, -1)
 
