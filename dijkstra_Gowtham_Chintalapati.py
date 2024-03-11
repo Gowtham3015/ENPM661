@@ -18,6 +18,7 @@ frame_color = (255, 255, 255)
 output_file_path = 'output.mp4'
 fps = 30
 
+
 # Initializing frame
 frame = np.ones((frame_length, frame_breadth, 3), dtype=np.uint8)
 
