@@ -36,6 +36,7 @@ u_shape_points = np.array([
     [900, 125], [1020, 125], [1020, 375], [900, 375]
 ])
 
+
 # Drawing shapes on the canvas
 # Hexagon
 cv2.polylines(frame, [hexagon_points], True, frame_color, 5)
